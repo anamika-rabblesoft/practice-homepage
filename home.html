@@ -17,15 +17,16 @@
   <style>
     .hero {
       background-image: url("Btgjom.jpg");
+      background-attachment: fixed;
       padding: 15%;
     }
-    h1 {
+    h1{
       color: white;
       font-size: xx-large;
       font-size: 50px;
       line-height: 40px;
     }
-    p {
+    p{
       color: white;
       margin-top: 20px;
       font-size: 20px;
@@ -34,7 +35,7 @@
       align-items: center;
       margin-top: 5%;
     }
-    h5 {
+    h5{
       font-style: italic;
       font-size: small;
       font-weight: 400;
@@ -109,10 +110,46 @@
     font-size: 14px;
     color: rgb(72, 72, 72);
 }
-     }
-    </style>
+@media (max-width:600px)  {
+  .container{
+    }
+  h1{
+    font-size: 40px;
+}
+
+@media (min-width:600px)  {
+  
+  h1{
+    font-size: 40px;
+  }
+}
+
+@media (min-width:768px)  {
+  
+  h1{
+    font-size: 40px;
+  }
+ }
+
+@media (min-width:992px)  {
+  
+  h1{
+    font-size: 40px;
+  }
+
+ }
+
+@media (min-width:1200px)  {
+  
+  h1{
+    font-size: 50px;
+  }
+}
+ }
+
+</style>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-black ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
       <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -147,8 +184,7 @@
                 href="#"
                 tabindex="-1"
                 aria-disabled="true"
-                >Contact Us</a
-              >
+                >Contact Us</a>
             </li>
           </ul>
           <form>
@@ -210,16 +246,16 @@
           </li>
         </div>
         <div class="col-6">
-          <img src="about.jpg" class="img-fluid" />
+          <img src="about.jpg" class="img-fluid"/>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <img src="image2.jpg" alt="" class="img-fluid"/>
+          <img src="image2.jpg" alt="" class="img-fluid progress-bar-animated"/>
         </div>
-        <div class="col-6 " >
+        <div class="col-6">
           <h3 class="">Est labore </h3>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut,
           deserunt! Recusandae, quam ipsa, officiis quas delectus tenetur id
@@ -411,7 +447,7 @@
           <textarea class="form-control" name="message" rows="5" placeholder="Message" required=""></textarea>
            </div>
            <div class="text-center m-5 ">
-           <button style=" background-color: rgb(255,196,81); padding: 10px; border-style: none; border-radius: 5px;  "  type="Submit">Send Message</button>
+           <button style=" background-color: rgb(255,196,81); padding: 10px; border-style:none;border-radius:5px; "type="Submit">Send Message </button> 
            </div>
         </div>
         </div>
@@ -419,7 +455,7 @@
     </div>
         <footer style="" class="bg-black" id="footer"> 
         <div class="footer-top">
-          <div  style="padding: 30px;" class=" container ">
+          <div  style="padding:30px;" class="container">
             <div class="row">
             <div class="col-3">
               <h4 class="text-white " style="font-size: xx-large;">GP</h4>
